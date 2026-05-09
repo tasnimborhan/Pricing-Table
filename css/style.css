@@ -41,10 +41,10 @@
 }
 
 .price-col{
-    background-color:#ffff ;
+    background-color:#573CFF ;
     padding: 10% 15%;
     border-radius: 20px;
-    color: #01007D;
+    color: #ffff;
     text-align: left;
 }
 
@@ -59,10 +59,28 @@
     font-size: 55px;
     font-weight: 500;
     font-family: "Be Vietnam Pro", sans-serif;
+    margin-top: 15px;
 }
 span{
     font-size: 18px;
     margin-left: -5px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
+}
+
+.price-col .var{
+    color: rgb(209, 208, 208);
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.price-col h5{
+    font-size: 18px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+    margin: 20px 0px;
+    
+
 }
