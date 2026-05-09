@@ -37,6 +37,7 @@
     margin: auto;
     display: grid;
     grid-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .price-col{
@@ -44,5 +45,24 @@
     padding: 10% 15%;
     border-radius: 20px;
     color: #01007D;
-    text-align: center;
+    text-align: left;
+}
+
+.price-col p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+
+}
+
+.price-col h3{
+    font-size: 55px;
+    font-weight: 500;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+span{
+    font-size: 18px;
+    margin-left: -5px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
 }
