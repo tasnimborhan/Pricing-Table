@@ -84,3 +84,10 @@ span{
     
 
 }
+
+.price-col ul li{
+    margin: 20px 0;
+}
+.price-col ul{
+    list-style: none;
+}
