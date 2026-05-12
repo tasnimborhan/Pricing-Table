@@ -71,7 +71,7 @@ span{
 .price-col .var{
     color: rgb(209, 208, 208);
     font-family: "Be Vietnam Pro", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     margin-top: 15px;
 }
@@ -90,4 +90,28 @@ span{
 }
 .price-col ul{
     list-style: none;
+}
+
+.price-col button{
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 10px;
+    border-style: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    
+
+    
+}
+
+.price-col{
+    margin: 50px 0;
+}
+
+.price-col button:hover{
+    background-color: #02015A;
+    color: white;
+    transition: .5s;
 }
